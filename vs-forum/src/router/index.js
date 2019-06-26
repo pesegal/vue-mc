@@ -10,6 +10,13 @@ export default new Router({
       path: '/',
       name: 'Hello',
       component: HelloWorld
+    },
+    {
+      path: '/thread',
+      name: 'ThreadShow',
+      component: HelloWorld
     }
-  ]
+
+  ],
+  mode: 'history'
 })
